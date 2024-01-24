@@ -6,16 +6,16 @@
 #    By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/23 10:40:51 by iescalon          #+#    #+#              #
-#    Updated: 2024/01/23 10:48:15 by iescalon         ###   ########.fr        #
+#    Updated: 2024/01/24 14:18:55 by iescalon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS			=
-OBJS			= $(SRCS: .c=.o)
+SRCS			= ft_char_str.c ft_nbr.c ft_printf.c ft_puthex.c ft_putptr.c
+OBJS			= $(SRCS:.c=.o)
 
 CC				= @CC
 RM				= @rm -fr
-CFLAGS			= -Wall -Wextra -Werror.
+CFLAGS			= -Wall -Wextra -Werror -ggdb -pedantic -I.
 
 NAME			= libftprintf.a
 

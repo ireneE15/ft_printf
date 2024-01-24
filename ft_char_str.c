@@ -6,10 +6,11 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 12:46:55 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/23 13:24:11 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/24 13:47:14 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
 #include <unistd.h>
 
 int	ft_putchar(int c)
@@ -23,7 +24,7 @@ int	ft_strlen(const char *s)
 	int	i;
 
 	i = 0;
-	while(s[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
