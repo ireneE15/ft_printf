@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 12:21:00 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/25 10:08:59 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/25 11:53:09 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	ft_printf(const char *s, ...)
 	va_start(args, s);
 	while (*s)
 	{
-		if (*s == '%')
+		if (*s == '%' && *s + 1)
 		{
 			len += ft_check(args, *(++s));
 		}
@@ -57,20 +57,20 @@ int	ft_printf(const char *s, ...)
 	va_end(args);
 	return (len);
 }
-/*
+
 int	main(void)
 {
-	int				num = -9;
-	unsigned int	i = 5;
+	int				num = -987;
+	unsigned int	i = -455;
 	char			s = 'c';
-	char			*str = "Hola";
+	char			*str = "Hello";
 	unsigned int	hx = 16;
 	int				a;
 	int				b;
 
 	a = ft_printf("str%%: %d %u %c %s %x %X %p\n", num, i, s, str, hx, hx, "");
 	b = printf("str%%: %d %u %c %s %x %X %p\n", num, i, s, str, hx, hx, "");
-	printf("Valor Original = %d, valor mío = %d\n",a, b);
+	printf("Valor Original = %d, valor mío = %d\n", a, b);
 	return (0);
 }
-*/
+
