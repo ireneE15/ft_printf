@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 12:21:00 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/25 11:53:09 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/25 11:55:33 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int	ft_printf(const char *s, ...)
 	va_end(args);
 	return (len);
 }
-
+/*
 int	main(void)
 {
 	int				num = -987;
@@ -73,4 +73,4 @@ int	main(void)
 	printf("Valor Original = %d, valor mío = %d\n", a, b);
 	return (0);
 }
-
+*/
