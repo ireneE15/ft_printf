@@ -6,7 +6,7 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 12:21:00 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/25 11:55:33 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/25 12:17:00 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ int	main(void)
 
 	a = ft_printf("str%%: %d %u %c %s %x %X %p\n", num, i, s, str, hx, hx, "");
 	b = printf("str%%: %d %u %c %s %x %X %p\n", num, i, s, str, hx, hx, "");
-	printf("Valor Original = %d, valor mío = %d\n", a, b);
+	printf("Original len = %d, my len = %d\n", a, b);
 	return (0);
 }
 */
