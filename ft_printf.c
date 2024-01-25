@@ -6,12 +6,11 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 12:21:00 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/24 14:20:52 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/25 09:54:02 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 static int	ft_check(va_list args, char c)
 {

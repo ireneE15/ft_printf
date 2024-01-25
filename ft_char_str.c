@@ -6,12 +6,11 @@
 /*   By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/23 12:46:55 by iescalon          #+#    #+#             */
-/*   Updated: 2024/01/24 13:47:14 by iescalon         ###   ########.fr       */
+/*   Updated: 2024/01/25 09:54:09 by iescalon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <unistd.h>
 
 int	ft_putchar(int c)
 {
