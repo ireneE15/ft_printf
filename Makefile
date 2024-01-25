@@ -6,11 +6,11 @@
 #    By: iescalon <iescalon@student.42urduliz.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/23 10:40:51 by iescalon          #+#    #+#              #
-#    Updated: 2024/01/25 09:52:23 by iescalon         ###   ########.fr        #
+#    Updated: 2024/01/25 10:50:09 by iescalon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS			= ft_char_str.c ft_nbr.c ft_printf.c ft_puthex.c ft_putptr.c
+SRCS			= ft_putchar_putstr.c ft_putnbr.c ft_printf.c ft_puthex.c ft_putptr.c
 OBJS			= $(SRCS:.c=.o)
 
 CC				= @CC
